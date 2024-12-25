@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Picker</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .color-section {
+        width: 100%;
+        height: 200px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 200px;
+        margin-top: 20px;
+        transition: background-color 0.3s ease;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Color Picker</h1>
+    <label for="colorPicker">Choose a Color:</label>
+    <input type="color" id="colorPicker" />
+    <div class="color-section" id="colorSection">Background Color</div>
+
+    <script src="script.js"></script>
+   
+  </body>
+</html>
