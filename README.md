@@ -1,0 +1,1 @@
+An interactive web application that allows users to pick a color and see the selected color applied to a div element. This project serves as a practice tool for understanding and implementing color picker functionality with HTML, CSS, and JavaScript.
